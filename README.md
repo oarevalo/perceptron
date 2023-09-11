@@ -8,6 +8,19 @@ To run in, just do:
 go run cmd/main.go
 ```
 
+Sample output:
+```
+$ go run cmd/main.go
+Perceptron
+==========
+
+Training....
+Final error on 1000 epochs: 4.002609
+
+Predicting....
+Accuracy on 210 predictions: 99.047619%
+```
+
 The main program will load a [dataset](http://archive.ics.uci.edu/dataset/236/seeds) from UC Irvine containing a classification of wheat seeds based on its geometrical properties. Then it will create a neural network with 3 "layers": 
 
 * an Input layer with 7 nodes (one for each input property)

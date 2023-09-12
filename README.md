@@ -29,6 +29,8 @@ The main program will load a [dataset](http://archive.ics.uci.edu/dataset/236/se
 
 Then the network will be trained with the given dataset, and finally we again use the same dataset to let the network "predict" the classification of each seed based on its inputs.
 
+![Wheat Classification Neural Network](wheatomatic9000.png)
+
 The network configuration can be chaned in `cmd/main.go` on this line:
 
 ```
